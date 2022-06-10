@@ -1,4 +1,2 @@
-# shopping-cart
-# shopping-cart
-# pin-matcher
 # understanding-events
+![understanding-events-UI](understanding-events-UI.png)
