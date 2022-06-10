@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Understanding_events</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+   <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+   <section>
+      <div class="container">
+         <h2 class="fw-bold text-center mt-5">Events & Event handlers</h2>
+         <div class="cart mt-5 mb-2">
+            <div class="row mx-auto">
+               <div id="cart-item1" class="mx-auto cart-item col-md-5">
+                  <h5 class="text-center">iPhone 11 128GB</h5>
+                  <img class="mx-auto d-block" id="phone" src="images/product-1.png" alt="">
+               </div>
+
+               <div id="cart-item2" class="mx-auto cart-item col-md-5">
+                  <h5 class="text-center">iPhone 11 Silicone Case</h5>
+                  <img class="mx-auto d-block" id="case" src="images/product-2.png" alt="">
+               </div>
+            </div>
+         </div>
+         <button id="change-shop" onclick="changeShop()"
+            class="btn btn-primary mx-auto d-block">Go-To-Another-Shop</button>
+      </div>
+   </section>
+
+   <script src="app.js"></script>
+
+</body>
+
+</html>
